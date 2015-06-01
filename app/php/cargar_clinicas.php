@@ -37,14 +37,15 @@ $columns = array(
     array( 'db' => 'provincia',  'dt' => 5 ),
     array( 'db' => 'direccion',   'dt' => 6 ),
     array( 'db' => 'numclinica',     'dt' => 7 ),
-    array( 'db' => 'id_tarifa',     'dt' => 8 )
+    array( 'db' => 'id_tarifa',     'dt' => 8 ),
+    array( 'db' => 'nombreTarifa',     'dt' => 9 )
 );
  
 // SQL server connection information
 $sql_details = array(
     'user' => 'root',
     'pass' => 'root',
-    'db'   => 'datatables',
+    'db'   => 'database',
     'host' => 'localhost'
 );
  
